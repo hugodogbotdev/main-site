@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+.nav{
+    height: 50px;
+    background: #5d8aa8;
+}
+
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Squada One', cursive;
+    color: white;
+}
+
+.nav ul{
+    position: absolute;
+    right: 5px;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    text-decoration: underline;
+    font-family: 'Squada One', cursive;
+    color: white;
+    padding: 5px;
+}
+
+.home{
+    background: url('https://th.bing.com/th/id/Rb803a696a78ed4cdd70c0b22bb09455e?rik=X8Y09uXs%2b6xTHg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fdlnFxZo.jpg&ehk=Dl2FSu9PR1ds3aPPvDSoKNmfgF7ym1ZwwTwVO1bIGdo%3d&risl=&pid=ImgRaw');
+    background-size: cover;
+    height: 100vh;
+}
+
+.home .text-contanier{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: #5d8aa8;
+    font-family: 'Squada One', cursive;
+}
+
+.about .about-content{
+    margin: 150px auto 0 auto;
+    width: 500px;
+}
+
+.about .about-content h1{
+    text-align: center;
+    color: #5d8aa8;
+    font-family: 'Squada One', cursive;
+}
+.about .about-content p{
+    text-align: justify;
+    color:black;
+    font-family: 'Squada One', cursive;
+}
+
+.services .service-content h1{
+    text-align: center;
+    color: #5d8aa8;
+    font-family: 'Squada One', cursive;
+}
+
+.service-content .card-container ul{
+    padding: 0;
+}.service-content .card-container ul li{
+    list-style: none;
+    display: inline-block;
+  margin: 20px;
+  width: 300px;
+}
+.service-content .card-container ul li p{
+    text-align: justify;
+    color: #5d8aa8;
+    font-family: 'Squada One', cursive;
+}
+
+.contact .contact-content h1{
+    text-align: center;
+    color: #5d8aa8;
+    font-family: 'Squada One', cursive;
+}
+.contact-info{
+    text-align: center;
+    color: black;
+    font-family: 'Squada One', cursive;
+    font-size: xx-large;
+}
