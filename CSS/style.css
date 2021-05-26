@@ -32,7 +32,7 @@
 }
 
 .home{
-    background: url('https://th.bing.com/th/id/Rb803a696a78ed4cdd70c0b22bb09455e?rik=X8Y09uXs%2b6xTHg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fdlnFxZo.jpg&ehk=Dl2FSu9PR1ds3aPPvDSoKNmfgF7ym1ZwwTwVO1bIGdo%3d&risl=&pid=ImgRaw');
+    background: url('https://wallpapertag.com/wallpaper/full/e/9/0/154685-popular-coding-background-1920x1200-smartphone.jpg');
     background-size: cover;
     height: 100vh;
 }
@@ -43,7 +43,8 @@
     align-items: center;
     justify-content: center;
     height: 90vh;
-    color: #5d8aa8;
+    font-size: large;
+    color: white;
     font-family: 'Squada One', cursive;
 }
 
@@ -61,6 +62,7 @@
     text-align: justify;
     color:black;
     font-family: 'Squada One', cursive;
+    font-size: large;
 }
 
 .services .service-content h1{
