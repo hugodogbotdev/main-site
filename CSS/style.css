@@ -32,7 +32,7 @@
 }
 
 .home{
-    background: url('https://wallpapertag.com/wallpaper/full/e/9/0/154685-popular-coding-background-1920x1200-smartphone.jpg');
+    background: url('https://th.bing.com/th/id/R60aacf25de261f3627217b68d82cd479?rik=RspcqRwycIZD8Q&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1443854%2fimages%2fo-CODING-facebook.jpg&ehk=bJUo1faY%2brBobAeC6VUHgKi%2fyl6pJFXUnvGAV4kz7rQ%3d&risl=&pid=ImgRaw');
     background-size: cover;
     height: 100vh;
 }
@@ -44,7 +44,7 @@
     justify-content: center;
     height: 90vh;
     font-size: large;
-    color: white;
+    color: black;
     font-family: 'Squada One', cursive;
 }
 
