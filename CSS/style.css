@@ -2,7 +2,7 @@
 
 .nav{
     height: 50px;
-    background: #5d8aa8;
+    background: transparent;
 }
 
 .nav div{
@@ -12,7 +12,7 @@
     padding: 15px;
     font-size: 20px;
     font-family: 'Squada One', cursive;
-    color: white;
+    color: gray;
 }
 
 .nav ul{
@@ -27,12 +27,12 @@
 .nav ul li a{
     text-decoration: underline;
     font-family: 'Squada One', cursive;
-    color: white;
+    color: black;
     padding: 5px;
 }
 
 .home{
-    background: url('https://th.bing.com/th/id/R60aacf25de261f3627217b68d82cd479?rik=RspcqRwycIZD8Q&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1443854%2fimages%2fo-CODING-facebook.jpg&ehk=bJUo1faY%2brBobAeC6VUHgKi%2fyl6pJFXUnvGAV4kz7rQ%3d&risl=&pid=ImgRaw');
+    background: url('https://th.bing.com/th/id/R9a6da8e743c219e27cf2c8b1ef712708?rik=zKZeF3yHRcFYaw&pid=ImgRaw');
     background-size: cover;
     height: 100vh;
 }
@@ -45,7 +45,7 @@
     height: 90vh;
     font-size: large;
     color: black;
-    font-family: 'Squada One', cursive;
+
 }
 
 .about .about-content{
