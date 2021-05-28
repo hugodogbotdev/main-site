@@ -1,14 +1,12 @@
-<!doctype html>
 <html>
     <head>
         <title>Hugo Dev - Contact</title>
         <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="javascript" href="./JS/app.js">
     </head>
     <body>
-        <div class="contact">
-            
-      <div class="nav">
-        <div><img src='./IMAGES/HD.png'></div>
+      <div class="nav2">
+        <div><img src='./IMAGES/COU-LOGO.png'></div>
           <ul>
               <li><a href="./index.html">Home</a></li>
               <li><a href="./about.html">About</a></li>
@@ -17,15 +15,39 @@
               <li><a href="https://www.fiverr.com/hugodevelopment?up_rollout=true">Sales</a></li>
           </ul>
       </div>
-      <div class="contact-content">
-        <div>
-            <h1>Contact us</h1>
-            <div class="contact-info">
-                <h4>Discord server - https://discord.gg/BcpqjNGByS</h4>
-                <h4>Email us here - Hugobotdev@gmail.com</h4>
+            
+      
+      <section>
+        <div class="container">
+          <form action="https://formspree.io/f/xknkrrbd" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName"> First Name</label>
+              <input type="text" id="firstName" name="firstName">
             </div>
+      
+            <div class="form-group">
+              <label for="latsName">Last Name</label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+      
+            <div class="form-group">
+              <label for="massage">Message</label>
+              <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+            </div>
+      
+            <button type="submit">Submit</button>
+          </form>
         </div>
-    </div>
-    </div>
+        <div id="status"></div>
+      </section>
+
+      
+    
     </body>
 </html>
