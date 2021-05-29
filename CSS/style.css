@@ -1,222 +1,324 @@
-@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*PHONE LAYOUT*/
+
+/*NAV START*/
 
 .nav{
-    height: 25px;
-    background: transparent;
+    height: 40px;
+    background: #111;
+    text-align: center;
 }
 
 .nav div{
     display: inline-block;
     position: absolute;
     left: 0;
-    padding: 15px;
-    font-size: 20px;
-    font-family: 'Squada One', cursive;
-    color: gray;
+    padding: 0px;
+    size: 30px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
+
 
 .nav ul{
     position: absolute;
+
     right: 5px;
 }
 
 .nav ul li{
+
     display: inline-block;
 }
 
 .nav ul li a{
+    text-align: center;
     text-decoration: underline;
-    font-family: 'Squada One', cursive;
-    color: black;
-    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     padding: 5px;
 }
 
-.nav2 div{
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  padding: 15px;
-  font-size: 20px;
-  font-family: 'Squada One', cursive;
-  color: gray;
-}
-
-.nav2 ul{
-  position: absolute;
-  right: 5px;
-}
-
-.nav2 ul li{
-  display: inline-block;
-}
-
-.nav2 ul li a{
-  text-decoration: underline;
-  font-family: 'Squada One', cursive;
-  color: black;
-  font-size: 22px;
-  padding: 5px;
-}
-.home{
-    background: url('https://th.bing.com/th/id/R9a6da8e743c219e27cf2c8b1ef712708?rik=zKZeF3yHRcFYaw&pid=ImgRaw');
-    background-size: cover;
-    height: 100vh;
-}
-
-.home .text-contanier{
+.nav ul li a{
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    font-size: large;
-    color: black;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 5px;
+}
 
+/*NAV END*/
+
+/*HOME START*/
+.wrapper {
+    width: 100%;
+}
+
+.hugo-dev-banner {
+  display: none;
+}
+
+.quote-1{
+    display: none;
+ }
+
+
+.img-info {
+    width: 100%;
+}
+
+.img-info h2{
+    padding: 30px 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+
+.img-info p{
+    padding: 0px 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+
+/*HOME END*/
+
+/*ABOUT US START*/
+
+.wrapper {
+    width: 100%;
+}
+
+.hugo-dev-banner {
+  display: none;
 }
 
 
-
-.about .about-content{
-    margin: 150px auto 0 auto;
-    width: 500px;
+.About-us {
+    width: 100%;
 }
 
-.about .about-content h1{
-    text-align: center;
-    color: #5d8aa8;
-    font-family: 'Squada One', cursive;
-}
-.about .about-content p{
-    text-align: justify;
-    color:black;
-    font-family: 'Squada One', cursive;
-    font-size: large;
+.About-us h2{
+    padding: 30px 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+    text-decoration: underline;
 }
 
-
-.services .service-content h1{
-    text-align: center;
-    color: #5d8aa8;
-    font-family: 'Squada One', cursive;
+.About-us p{
+    padding: 0px 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
 }
 
-.service-content .card-container ul{
+/*ABOUT US END*/
+
+/*SERVICES START*/
+
+.services h2{
+    padding: 30px 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+    text-decoration: underline;
+}
+
+ .card-container ul{
     padding: 0;
-}.service-content .card-container ul li{
+}
+.card-container ul li{
     list-style: none;
     display: inline-block;
   margin: 20px;
   width: 300px;
 }
-.service-content .card-container ul li p{
+.card-container ul li p{
     text-align: justify;
-    color: #5d8aa8;
-    font-family: 'Squada One', cursive;
+    color: #111;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/*SERVICES END*/
 
+/*CONTACT US PAGE START*/
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
-
-  section {
-    height: 100vh;
+.contact-info{
     width: 100%;
- 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 25px;
-  }
-
-.container{
-   width: 85%;
-   max-width: 600px;
-   background: white;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   padding: 30px 40px;
-   box-sizing: border-box;
-   border-radius: 8px;
-   text-align: center;
-   box-shadow: 0 0 20px #000000b3;
 }
+
+.contact-info h2{
+    padding: 30px 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.contact-info p{
+    padding: 30px 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #111;
+    line-height: 44px;
+    text-align: center;
+}
+
+/*CONTACT US PAGE END*/
+
+/*ERROR 404 START*/  
+
+.error-page{
+    width: 100%;
+}
+
+.error-page h2{
+    padding: 30px 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+    color: #111;
+    line-height: 44px;
+    text-align: center;
+}
+
+.error-page p{
+    padding: 30px 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #111;
+    line-height: 44px;
+    text-align: center;
+}
+
+/*ERROR 404 END*/
+
+
+/*TABLET LAYOUT*/
+@media only screen and (min-width: 768px) {
     
+    /*HOME SCREEN START*/
+    .hugo-dev-banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+      }
 
-  .form-group {
-    width: 100%;
-    margin-top: 20px;
-    font-size: 20px;
-  }
-  .form-group input,
-  .form-group textarea {
-    width: 100%;
-    padding: 5px;
-    font-size: 18px;
-    border: 1px solid rgba(128, 128, 128, 0.199);
-    margin-top: 5px;
-  }
-  
-  textarea {
-    resize: none;
-  }
-  button[type="submit"] {
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 20px;
-    font-size: 24px;
-    border-radius: 8px;
-    font-family: 'Roboto', sans-serif;
-    background-color: #5d8aa8;
-    text-align: center;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: 0.3s ease background-color;
-  }
-  button[type="submit"]:hover {
-    background-color: rgb(214, 226, 236);
-  }
-  #status {
-    width: 90%;
-    max-width: 500px;
-    text-align: center;
-    padding: 10px;
-    margin: 0 auto;
-    border-radius: 8px;
-  }
-  #status.success {
-    background-color: rgb(211, 250, 153);
-    animation: status 4s ease forwards;
-  }
-  #status.error {
-    background-color: rgb(250, 129, 92);
-    color: white;
-    animation: status 4s ease forwards;
-  }
-  @keyframes status {
-    0% {
-      opacity: 1;
-      pointer-events: all;
+      .wrapper {
+        width: 600px;
+        margin: 0 auto;
     }
-    90% {
-      opacity: 1;
-      pointer-events: all;
+
+    .img-info h2{
+        padding: 20px 0px 0px;
     }
-    100% {
-      opacity: 0;
-      pointer-events: none;
+    
+    .img-info p{
+        padding: 20px 0px 0px;
     }
-  }
+
+    .nav ul li a{
+        font-size: xx-large;
+    }
+
+    .quote-1{
+       display: none;
+    }
+
+    /*HOME SREEN END*/
+
+    /*ABOUT US START*/
+
+    .hugo-dev-banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+      }
+
+      .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .About-us h2{
+        padding: 20px 0px 0px;
+    }
+    
+    .About-us p{
+        padding: 20px 0px 0px;
+    }
+
+     /*ABOUT US END*/
+}
+
+/*COMPUTER LAYOUT*/
+@media only screen and (min-width: 1000px) {
+    
+    /*HOME SCREEN START*/
+
+      .wrapper {
+        width: 1000px;
+    }
+
+    .img-info{
+        width: 50%;
+        float: right;
+    }
+
+    .quote-1{
+        display: block;
+        padding-top: 0px;
+        width: 50%;
+        float: left;
+    }
+
+    .nav ul li a{
+        font-size: xx-large;
+    }
+
+    .img-info h2{
+        padding: 20px 0px 0px 30px;
+    }
+    
+    .img-info p{
+        padding: 20px 0px 0px 30px;
+    }
+
+    /*HOME SREEN END*/
+
+    /*ABOUT START*/
+
+    
+    .wrapper {
+        width: 1000px;
+    }
+
+    .About-us{
+        width: 100%;
+        float: center;
+    }
+
+
+    .About-us h2{
+        padding: 20px 0px 0px 30px;
+        text-align: center;
+    }
+    
+    .About-us p{
+        padding: 20px 0px 0px 30px;
+    }
+
+    /*ABOUT END*/
+}
