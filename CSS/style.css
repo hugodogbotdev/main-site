@@ -88,6 +88,8 @@
     line-height: 24px;
 }
 
+
+
 /*HOME END*/
 
 /*ABOUT US START*/
@@ -229,6 +231,8 @@
         padding: 20px 0px 0px;
     }
 
+    
+
     .nav ul li a{
         font-size: xx-large;
     }
@@ -277,6 +281,7 @@
         float: right;
     }
 
+
     .quote-1{
         display: block;
         padding-top: 0px;
@@ -290,10 +295,22 @@
 
     .img-info h2{
         padding: 20px 0px 0px 30px;
+
     }
     
     .img-info p{
         padding: 20px 0px 0px 30px;
+        
+    }
+
+    .img-info-2 h2{
+        padding: 20px 0px 0px 30px;
+color: white;
+    }
+    
+    .img-info-2 p{
+        padding: 20px 0px 0px 30px;
+        color: white;
     }
 
     /*HOME SREEN END*/
